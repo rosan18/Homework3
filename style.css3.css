@@ -1,0 +1,82 @@
+h1,h2{text-align:center;
+    color:#003366;
+    font-family:Arial;}
+    
+p{font-family:cursive;
+  word-spacing: 0.5em;
+  text-align: center;
+}
+
+
+body{
+ margin:0;
+ padding:0;}
+
+
+nav{   position:absolute;
+       font-size: 1.5em;
+       text-align:center;
+        word-spacing: 5em;
+        margin-left:350px;
+        margin-top:30px;
+        z-index: 1;
+        color:white;
+    }
+.image1{
+    margin-left: 40em;
+}
+
+
+
+    .image2{
+    position: relative;
+    width:1400px;
+    height:100px;
+}
+nav a{
+    text-decoration: none;
+    color:white;
+}
+.image3{
+    position:relative;
+}
+.searchbox{
+    position: absolute;
+    margin-left:55em;
+    bottom:10em;
+    width:20em;
+    height:10em;
+    z-index:2;
+} .servicelist{
+    display:grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto;
+    align-items: center;
+    font-family:cursive;
+}
+.airfreshener{
+    width:15em;
+    height:20em;
+    align-content: center;
+    position:relative
+}
+.lastpar1{
+   position:absolute;
+   left:15em;
+   bottom:-35em;
+   color:white;
+}
+.lastpar2{
+    position: absolute;
+    right:15em;
+    bottom:-35em;
+    color:white;
+}
+
+.machines{
+   background-color:lightcyan;
+   display:flex; 
+   flex-direction: row;
+   justify-content: space-around;
+
+}
